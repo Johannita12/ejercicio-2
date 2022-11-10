@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="(B|0w82f67%cE+OeMR.m" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id="Ed+,ZnNkBs-;wF_byN)d"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="!A/TE1d;S7,[9^=Mi_|["><field name="NAME">Dimension.X</field></block></value><next><block type="controls_if" id="8V)jCG9I*aw/DmIo?a3Q"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="BB=^P$]5.@jd.2za@9dB"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="b+S~|QQCMP,N@-*cx=;T"><field name="NAME">Dimension.X</field></block></value><value name="B"><shadow type="math_number" id="JDO,:my)e;.cG7LBwLGz"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="lZfau]?Y~vt|puW1Q[?E"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="]L:B+kHpyIw!3aN*BMwW"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="i;ni|#laBn,yKr;+g3Xp"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="xZh*9h-eq;y|5{rx7_J!" x="519" y="17"></block></xml>
